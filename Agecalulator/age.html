@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age calulator</title>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
+    <script src="../Agecalulator/age.js"></script>
+    <link rel="stylesheet" href="../Agecalulator/age.css">
+</head>
+<body>
+    <h1>Age Calculator</h1>
+    <main class="container">
+        <div class="input">
+          <label for="birthdate">Enter Your Birthdate : </label>
+          <input type="date" id="birthdate" />
+        </div>
+        <ul>
+          <li><span class="details" id="years"></span> Years</li>
+          <li><span class="details" id="months"></span> Months</li>
+          <li><span class="details" id="days"></span> Days</li>
+          <li><span class="details" id="hours"></span> Hours</li>
+          <li><span class="details" id="minutes"></span> Minutes</li>
+          <li><span class="details" id="seconds"></span> Seconds</li>
+        </ul>
+        <div class="btns">
+          <button onclick="calculate()">Calculate</button>
+          <button onclick="reset()">Reset</button>
+        </div>
+      </main>
+     
+</body>
+</html>
+
